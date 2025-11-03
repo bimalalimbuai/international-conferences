@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Conference on New Trends in Sciences - Dharan</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl md:text-2xl font-bold text-indigo-800">ICNTS-Dharan</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#topics" class="text-gray-600 hover:text-indigo-700">Tracks</a>
+                <a href="#speakers" class="text-gray-600 hover:text-indigo-700">Speakers</a>
+                <a href="#why-attend" class="text-gray-600 hover:text-indigo-700">Why Attend</a>
+                <a href="#location" class="text-gray-600 hover:text-indigo-700">Venue</a>
+                <a href="#how-to-reach" class="text-gray-600 hover:text-indigo-700">Travel</a>
+                <a href="#accommodation" class="text-gray-600 hover:text-indigo-700">Hotels</a>
+                <a href="#register" class="bg-teal-500 text-white px-5 py-2 rounded-md font-medium hover:bg-teal-600 shadow transition-all">Register Now</a>
+            </div>
+            <a href="#register" class="md:hidden bg-teal-500 text-white px-4 py-2 rounded-md font-medium text-sm">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section (Attention) -->
+        <section class="bg-indigo-900 text-white relative overflow-hidden">
+            <div class="absolute inset-0 bg-black opacity-30"></div>
+            <div class="container mx-auto px-6 py-24 md:py-32 text-center relative z-10">
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">International Conference on New Trends in Sciences</h1>
+                <p class="text-lg md:text-xl text-indigo-100 font-medium mb-6">December 25-28, 2024 | Dharan, Nepal</p>
+                <p class="text-xl md:text-2xl text-teal-300 font-semibold mb-8">Join leading researchers, scientists, and scholars to explore the future of science.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#register" class="bg-teal-400 text-indigo-900 font-bold px-8 py-3 rounded-md text-lg hover:bg-teal-300 shadow-lg transition-all">
+                        Register Today
+                    </a>
+                    <a href="#topics" class="bg-white/20 backdrop-blur-sm text-white font-medium px-8 py-3 rounded-md text-lg hover:bg-white/30 shadow-lg transition-all">
+                        View Conference Tracks
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conference Tracks (Interest) -->
+        <section id="topics" class="py-20 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Conference Tracks</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Explore 8 specialized tracks covering the latest advancements in science.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+                    <!-- Topic Cards -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <h3 class="text-lg font-semibold text-indigo-800">Green Chemistry</h3>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <h3 class="text-lg font-semibold text-indigo-800">Synthetic Chemistry</h3>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <h3 class="text-lg font-semibold text-indigo-800">Polymer Science</h3>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <h3 class="text-lg font-semibold text-indigo-800">Molecular Biology</h3>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <h3 class="text-lg font-semibold text-indigo-800">Nanotechnology</h3>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <h3 class="text-lg font-semibold text-indigo-800">Environmental Science</h3>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <h3 class="text-lg font-semibold text-indigo-800">Computational Chemistry</h3>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
+                        <h3 class="text-lg font-semibold text-indigo-800">Biotechnology</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Keynote Speakers (Desire) -->
+        <section id="speakers" class="py-20 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Keynote Speakers</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Learn from world-renowned leaders and innovators in their fields.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-10">
+                    <!-- Speaker 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-xl text-center">
+                        <img src="https://placehold.co/150x150/e2e8f0/64748b?text=Speaker+A" alt="Keynote Speaker 1" class="w-36 h-36 rounded-full mx-auto mb-4 border-4 border-gray-200">
+                        <h3 class="text-2xl font-bold text-indigo-800">Prof. Dr. Jane Doe</h3>
+                        <p class="text-md text-gray-600 font-medium">Harvard University, USA</p>
+                        <p class="text-gray-500 mt-2 text-sm">Pioneer in Green Chemistry Solutions</p>
+                    </div>
+                    <!-- Speaker 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-xl text-center">
+                        <img src="https://placehold.co/150x150/e2e8f0/64748b?text=Speaker+B" alt="Keynote Speaker 2" class="w-36 h-36 rounded-full mx-auto mb-4 border-4 border-gray-200">
+                        <h3 class="text-2xl font-bold text-indigo-800">Dr. Ramesh Sharma</h3>
+                        <p class="text-md text-gray-600 font-medium">IIT Delhi, India</p>
+                        <p class="text-gray-500 mt-2 text-sm">Expert in Polymer & Materials Science</p>
+                    </div>
+                    <!-- Speaker 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-xl text-center">
+                        <img src="https://placehold.co/150x150/e2e8f0/64748b?text=Speaker+C" alt="Keynote Speaker 3" class="w-36 h-36 rounded-full mx-auto mb-4 border-4 border-gray-200">
+                        <h3 class="text-2xl font-bold text-indigo-800">Dr. Li Wei</h3>
+                        <p class="text-md text-gray-600 font-medium">NUS, Singapore</p>
+                        <p class="text-gray-500 mt-2 text-sm">Innovations in Molecular Biology</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Attend (Desire) -->
+        <section id="why-attend" class="py-20 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Why Attend ICNTS-Dharan?</h2>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center p-4">
+                        <svg class="w-16 h-16 text-teal-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882a1.92 1.92 0 013.84 0V11a1.92 1.92 0 01-3.84 0V5.882z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11v6m-4-6v6m8-6v6M4 21h16M4 17h16"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Expert-Led Sessions</h3>
+                        <p class="text-gray-600">Gain insights from keynote speakers and parallel sessions on 8 specialized tracks.</p>
+                    </div>
+                    <div class="text-center p-4">
+                        <svg class="w-16 h-16 text-teal-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-1.657-1.343-3-3-3s-3 1.343-3 3v2m6 0H9"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12a3 3 0 100-6 3 3 0 000 6zM17 12a3 3 0 100-6 3 3 0 000 6zM3 12a3 3 0 100-6 3 3 0 000 6z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Global Networking</h3>
+                        <p class="text-gray-600">Connect with academics, researchers, and industry leaders from around the world.</p>
+                    </div>
+                    <div class="text-center p-4">
+                        <svg class="w-16 h-16 text-teal-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Publication Opportunity</h3>
+                        <p class="text-gray-600">Selected papers will be published in a special issue of a partner Scopus-indexed journal.</p>
+                    </div>
+                    <div class="text-center p-4">
+                        <svg class="w-16 h-16 text-teal-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Explore Dharan</h3>
+                        <p class="text-gray-600">Experience the culture and natural beauty of Dharan, a vibrant city at the foothills of the Himalayas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Venue -->
+        <section id="location" class="py-20 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Venue & Location</h2>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-800 mb-4">About Dharan</h3>
+                        <p class="text-gray-600 mb-6">Dharan is a major city in eastern Nepal, known for its diverse culture, clean environment, and status as a center of education and healthcare. Nestled between the mountains and the plains, it offers a unique blend of natural beauty and urban energy, making it an ideal location for an international gathering.</p>
+                        
+                        <h3 class="text-2xl font-bold text-indigo-800 mb-4">Conference Venue</h3>
+                        <p class="text-gray-600 mb-4">The conference will be held at the <strong class="font-semibold">Central Campus of Technology (Hatisar Campus)</strong>, a premier institution in the region. Its modern facilities and academic environment provide the perfect setting for learning and collaboration.</p>
+                        <p class="text-gray-700 font-medium">📍 Hatisar, Dharan, Sunsari, Nepal</p>
+                    </div>
+                    <div class="rounded-lg shadow-xl overflow-hidden h-96">
+                        <!-- Google Maps Embed -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.401416801901!2d87.2882181754203!3d26.3458611846473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef5b961d7f6423%3A0x84f901170b66e814!2sCentral%20Campus%20of%20Technology%2C%20Hattisar!5e0!3m2!1sen!2snp!4v1700000000000" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Reach Section -->
+        <section id="how-to-reach" class="py-20 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">How to Reach Dharan</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Travel guidance for our international and domestic attendees.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- By Air -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                        <svg class="w-12 h-12 text-indigo-700 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.875L5.999 12zm0 0h7.5" />
+                        </svg>
+                        <h3 class="text-2xl font-semibold mb-3">By Air</h3>
+                        <p class="text-gray-600">The nearest airport is <strong class="font-medium text-gray-800">Biratnagar Airport (BIR)</strong>, approximately 40km (1-hour drive) from Dharan. It is well-connected with daily flights from Kathmandu (KTM). Taxis are readily available at the airport to take you to Dharan.</p>
+                    </div>
+                    <!-- By Road -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                        <svg class="w-12 h-12 text-indigo-700 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.125-.504 1.125-1.125V14.25m-17.25 4.5v-1.875a3.375 3.375 0 013.375-3.375h9.75a3.375 3.375 0 013.375 3.375v1.875m-17.25 4.5h16.5M6 12h12M6 12v-6.375c0-.621.504-1.125 1.125-1.125h9.75c.621 0 1.125.504 1.125 1.125V12" />
+                        </svg>
+                        <h3 class="text-2xl font-semibold mb-3">By Road (Domestic)</h3>
+                        <p class="text-gray-600">Deluxe tourist buses and microbuses run daily from Kathmandu and other major cities like Pokhara and Chitwan to Dharan. The journey from Kathmandu takes approximately 8-10 hours. The main bus park is centrally located, with easy access to hotels.</p>
+                    </div>
+                    <!-- From India -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                        <svg class="w-12 h-12 text-indigo-700 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" />
+                        </svg>
+                        <h3 class="text-2xl font-semibold mb-3">From India (Train/Road)</h3>
+                        <p class="text-gray-600">The closest major Indian railway station is <strong class="font-medium text-gray-800">New Jalpaiguri (NJP)</strong>. From there, you can take a taxi to the Kakarbhitta border (approx. 1-2 hours), cross, and then take a bus or taxi to Dharan (approx. 2-3 hours). Alternatively, reach Jogbani by train and cross the border to Biratnagar, which is very close to Dharan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accommodation Section -->
+        <section id="accommodation" class="py-20 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Accommodation</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">We recommend booking in advance. Here are some nearby hotel options.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Hotel 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-xl text-center border-t-4 border-teal-500">
+                        <h3 class="text-2xl font-bold text-indigo-800">Hotel Green Valley</h3>
+                        <p class="text-md text-gray-600 font-medium my-2">5-Star Luxury | 5km from Venue</p>
+                        <p class="text-gray-500 mt-2 text-sm">Offers premium amenities, including a pool and conference facilities. Ideal for speakers and international guests.</p>
+                    </div>
+                    <!-- Hotel 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-xl text-center border-t-4 border-teal-500">
+                        <h3 class="text-2xl font-bold text-indigo-800">The Sarovar (Dharan)</h3>
+                        <p class="text-md text-gray-600 font-medium my-2">Boutique Hotel | 2km from Venue</p>
+                        <p class="text-gray-500 mt-2 text-sm">A comfortable and modern hotel known for its excellent service and dining. A great all-around option.</p>
+                    </div>
+                    <!-- Hotel 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-xl text-center border-t-4 border-teal-500">
+                        <h3 class="text-2xl font-bold text-indigo-800">Budget Inn Dharan</h3>
+                        <p class="text-md text-gray-600 font-medium my-2">Budget Friendly | 1km from Venue</p>
+                        <p class="text-gray-500 mt-2 text-sm">Clean, safe, and affordable accommodation. Perfect for students and attendees on a budget. Walking distance.</p>
+                    </div>
+                </div>
+                <p class="text-center mt-8 text-gray-600"><i>Please note: These are recommendations. Attendees are responsible for their own bookings.</i></p>
+            </div>
+        </section>
+
+        <!-- Registration Form (Action) -->
+        <section id="register" class="py-20 md:py-24 bg-indigo-800 text-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-3">Register Now</h2>
+                    <p class="text-lg text-indigo-100 max-w-xl mx-auto">Secure your spot today. Registration is fast and easy.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <!-- Registration Deadlines -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-3xl font-bold mb-6">Important Dates</h3>
+                        <div class="space-y-4">
+                            <div class="bg-indigo-700/80 p-5 rounded-lg">
+                                <p class="text-xl font-semibold text-teal-300">Early Bird Registration</p>
+                                <p class="text-lg text-white">Closes: Nov 30, 2024</p>
+                            </div>
+                            <div class="bg-indigo-700/80 p-5 rounded-lg">
+                                <p class="text-xl font-semibold text-teal-300">Regular Registration</p>
+                                <p class="text-lg text-white">Closes: Dec 15, 2024</p>
+                            </div>
+                             <div class="bg-indigo-700/80 p-5 rounded-lg">
+                                <p class="text-xl font-semibold text-teal-300">Abstract Submission</p>
+                                <p class="text-lg text-white">Closes: Dec 10, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Registration Form -->
+                    <div class="max-w-xl mx-auto md:mx-0 w-full bg-white text-gray-900 p-8 md:p-10 rounded-lg shadow-2xl">
+                        <form id="inquiry-form">
+                            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="FullName" class="block mb-2 font-medium">Full Name <span class="text-red-600">*</span></label>
+                                    <input type="text" name="FullName" id="FullName" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" required>
+                                </div>
+                                <div>
+                                    <label for="Email" class="block mb-2 font-medium">Email Address <span class="text-red-600">*</span></label>
+                                    <input type="email" name="Email" id="Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" required>
+                                </div>
+                            </div>
+                            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="Phone" class="block mb-2 font-medium">Phone Number</label>
+                                    <input type="tel" name="Phone" id="Phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                </div>
+                                <div>
+                                    <label for="Affiliation" class="block mb-2 font-medium">Affiliation <span class="text-red-600">*</span></label>
+                                    <input type="text" name="Affiliation" id="Affiliation" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="University / Company" required>
+                                </div>
+                            </div>
+
+                            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="RegistrationType" class="block mb-2 font-medium">Registering As <span class="text-red-600">*</span></label>
+                                    <select name="RegistrationType" id="RegistrationType" class="w-full px-4 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500" required>
+                                        <option value="">Select type...</option>
+                                        <option value="Student">Student</option>
+                                        <option value="Academic">Academic / Faculty</option>
+                                        <option value="Industry">Industry Professional</option>
+                                        <option value="General Attendee">General Attendee</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block mb-2 font-medium">Submitting an Abstract? <span class="text-red-600">*</span></label>
+                                    <div class="flex gap-4 pt-2">
+                                        <label class="flex items-center">
+                                            <input type="radio" name="AbstractSubmission" value="Yes" class="w-4 h-4 text-indigo-600 focus:ring-indigo-500" required>
+                                            <span class="ml-2">Yes</span>
+                                        </label>
+                                        <label class="flex items-center">
+                                            <input type="radio" name="AbstractSubmission" value="No" class="w-4 h-4 text-indigo-600 focus:ring-indigo-500">
+                                            <span class="ml-2">No</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-6">
+                                <label for="Message" class="block mb-2 font-medium">Message / Inquiry</label>
+                                <textarea name="Message" id="Message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="e.g., Requesting an invitation letter, dietary restrictions, etc."></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="w-full bg-teal-500 text-white font-bold px-8 py-3 rounded-md text-lg hover:bg-teal-600 shadow-lg transition-all disabled:bg-gray-400 disabled:cursor-not-allowed">
+                                    Submit Registration
+                                </button>
+                            </div>
+                        </form>
+                        <!-- Message area for form status -->
+                        <div id="form-message" class="mt-4 text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; <span id="current-year"></span> ICNTS-Dharan. All rights reserved.</p>
+            <p class="text-sm mt-2">Hosted at Central Campus of Technology, Dharan</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // --- Form Submission Handling ---
+        const form = document.getElementById('inquiry-form');
+        const messageEl = document.getElementById('form-message');
+        const submitButton = form.querySelector('button[type="submit"]');
+
+        // 
+        // --- !!! IMPORTANT !!! ---
+        //
+        // 1. Follow the instructions in the 'google-script-setup.md' file.
+        // 2. You will get a 'Web App URL' after deploying your script.
+        // 3. Paste that URL here, replacing the placeholder.
+        //
+        const SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE'; 
+        //
+        // --- !!! IMPORTANT !!! ---
+        //
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            
+            if (SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE') {
+                messageEl.textContent = 'Form is not configured. Please set the SCRIPT_URL in the HTML file.';
+                messageEl.className = 'mt-4 p-4 rounded-md bg-red-100 text-red-700';
+                return;
+            }
+
+            // Disable button and show loading text
+            submitButton.disabled = true;
+            submitButton.textContent = 'Submitting...';
+            messageEl.textContent = '';
+            messageEl.className = '';
+
+            const formData = new FormData(form);
+
+            fetch(SCRIPT_URL, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    return response.json().then(errorData => {
+                        throw new Error(errorData.message || 'Network response was not ok.');
+                    });
+                }
+            })
+            .then(data => {
+                if (data.status === 'success') {
+                    // Success
+                    messageEl.textContent = 'Registration successful! Please check your email for confirmation.';
+                    messageEl.className = 'mt-4 p-4 rounded-md bg-green-100 text-green-700';
+                    form.reset();
+                } else {
+                    // Handle errors returned by the script
+                    throw new Error(data.message || 'Submission failed. Please try again.');
+                }
+            })
+            .catch(error => {
+                // Handle fetch errors or errors thrown
+                messageEl.textContent = 'Error: ' + error.message;
+                messageEl.className = 'mt-4 p-4 rounded-md bg-red-100 text-red-700';
+            })
+            .finally(() => {
+                // Re-enable button
+                submitButton.disabled = false;
+                submitButton.textContent = 'Submit Registration';
+            });
+        });
+
+        // --- Smooth Scroll for Nav Links ---
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
+
